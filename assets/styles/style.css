@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+html {
+    font-family: 'Open Sans';
+}
+
+body {
+    background: #FFF;
+}
+
+ul {
+    padding: 0;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    padding-top: 40px;
+    gap: 500px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu__item__home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.menu__item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    width: 1170px;
+    margin-top: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40.94px;
+}
+
+.intro__title {
+    width: 522px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.intro__lower__title {
+    width: 466px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 37px;
+}
+
+.button {
+    display: flex;
+    gap: 72px;
+    width: 374px;
+    align-items: center;
+}
+
+.intro__button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.button a {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.image_intro {
+    width: 544.814px;
+
+}
+
+.logos {
+    display: flex;
+    margin-top: 162px;
+    width: 1300px;
+    gap: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos__item {
+    width: 160px;
+    height: 50px;
+}
