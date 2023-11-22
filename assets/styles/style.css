@@ -47,12 +47,12 @@ ul {
 }
 
 .header {
+    justify-content: space-between;
     margin: 0 auto;
     display: flex;
     align-items: center;
     width: 1170px;
     padding-top: 40px;
-    gap: 500px;
 }
 
 .menu {
@@ -135,18 +135,16 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .image_intro {
     width: 544.814px;
-
 }
 
 .logos {
     display: flex;
     margin-top: 162px;
-    width: 1300px;
+    width: 1200px;
     gap: 48px;
     margin-left: auto;
     margin-right: auto;
